@@ -3,8 +3,8 @@
 **Version** 1.0.0
 
 ## SYNOPSIS
-		
-    Parses provided strings for SymVer version number using a variety of Regex patterns.  Works on multiple strings, returns either matched string or a table with original/new values.
+
+Parses provided strings for SymVer version number using a variety of Regex patterns.  Works on multiple strings, returns either matched string or a table with original/new values.
 	
 ## DESCRIPTION
 	    
@@ -55,9 +55,9 @@ A pre-built list of various test filenames/file patterns to use when testing you
 	
 ###	.EXAMPLE
 
-		PS C:\> Get-VersionFromStringRegex -String "\\MyDomain.com\MyFileServer\MyShare\SomeFilePath\MyScript.2.15.0.152.ps1"
-    
-    PS C:\> Get-VersionFromStringRegex -EnableTestStrings
+	PS C:\> Get-VersionFromStringRegex -String "\\MyDomain.com\MyFileServer\MyShare\SomeFilePath\MyScript.2.15.0.152.ps1"
+	
+	PS C:\> Get-VersionFromStringRegex -EnableTestStrings
 	
 ###	.NOTES
 		
